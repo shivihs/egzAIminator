@@ -1,0 +1,20 @@
+'name: egzaiminator
+channels:
+  - defaults
+  - conda-forge
+defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+    - fastapi==0.115.0
+    - uvicorn==0.32.0
+    - openai==1.54.3
+    - python-dotenv==1.0.1
+    - pydantic==2.9.2
+    - httpx==0.27.2
+    - python-dateutil<3
+    - charset-normalizer>=2,<4
+    - urllib3<3
+    - packaging>=20
+    - platformdirs>=2.1
